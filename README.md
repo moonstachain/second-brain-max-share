@@ -8,6 +8,14 @@
 
 ---
 
+## 一图看懂
+
+![本地专家大脑 · 概念地图](concept-map.png)
+
+> 上图为概念地图（在 Obsidian 里打开 [`concept-map.canvas`](concept-map.canvas) 可交互编辑 / 点链接跳卷）。
+
+---
+
 ## 这是什么
 
 很多教你用 Obsidian 做第二大脑的教程，都没告诉你：**当知识库越来越大，基于 index 文件的搜索精度会逐渐下降，大脑会"宕机"。**

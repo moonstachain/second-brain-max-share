@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1920" viewBox="0 0 1920 1920" font-family="PingFang SC, Microsoft YaHei, Hiragino Sans GB, sans-serif">
+<rect width="1920" height="1920" fill="#fafafa"/>
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#8a6cf0"/></marker></defs>
+<rect x="40" y="410" width="1760" height="200" rx="14" fill="#ebf8f0" stroke="#3fae6e" stroke-width="2" opacity="0.55"/>
+<text x="54" y="434" font-size="17" font-weight="700" fill="#1f8a4d">🔄 五环代谢循环 · 全书脊柱(卷一) · ⟲ 反哺→摄入 越用越懂你</text>
+<rect x="40" y="720" width="1760" height="200" rx="14" fill="#fdeef0" stroke="#e0565b" stroke-width="2" opacity="0.55"/>
+<text x="54" y="744" font-size="17" font-weight="700" fill="#b3373c">🧩 五系统 = 1 真相源 + 4 器官，不重叠(卷二铁律 / 卷四工具)</text>
+<rect x="40" y="1030" width="1760" height="200" rx="14" fill="#e9f8fb" stroke="#3fb6c9" stroke-width="2" opacity="0.55"/>
+<text x="54" y="1054" font-size="17" font-weight="700" fill="#1f8090">🛠 运营支撑 · 工具替不了的「人的本事」与边界</text>
+<rect x="40" y="1340" width="1760" height="200" rx="14" fill="#fdf3e8" stroke="#e0913f" stroke-width="2" opacity="0.55"/>
+<text x="54" y="1364" font-size="17" font-weight="700" fill="#a8651f">🌱 B1-B4 成长路径(卷六) · 逐阶长，停在哪阶都合格</text>
+<rect x="40" y="1650" width="1840" height="230" rx="14" fill="#f1edff" stroke="#8a6cf0" stroke-width="2" opacity="0.55"/>
+<text x="54" y="1674" font-size="17" font-weight="700" fill="#5a3fc0">📖 八卷 · 层层递进(点 🔗 打开)</text>
+<line x1="920" y1="360" x2="920" y2="410" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="920" y1="610" x2="920" y2="720" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="920" y1="920" x2="920" y2="1030" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="920" y1="1230" x2="920" y2="1340" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="920" y1="1540" x2="960" y2="1650" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="360" y1="530" x2="390" y2="530" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="690" y1="530" x2="720" y2="530" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="1020" y1="530" x2="1050" y2="530" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="1350" y1="530" x2="1380" y2="530" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="350" y1="1460" x2="380" y2="1460" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="670" y1="1460" x2="700" y2="1460" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="990" y1="1460" x2="1020" y2="1460" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="260" y1="1785" x2="282" y2="1785" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="482" y1="1785" x2="504" y2="1785" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="704" y1="1785" x2="726" y2="1785" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="926" y1="1785" x2="948" y2="1785" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="1148" y1="1785" x2="1170" y2="1785" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="1370" y1="1785" x2="1392" y2="1785" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="1592" y1="1785" x2="1614" y2="1785" stroke="#8a6cf0" stroke-width="2.5" marker-end="url(#arr)"/>
+<rect x="380" y="40" width="1080" height="90" rx="10" fill="#ffffff" stroke="#8a6cf0" stroke-width="2"/>
+<text x="392" y="64" font-size="15" font-weight="700" fill="#5a3fc0">本地专家大脑绿皮书 · 概念地图</text>
+<text x="392" y="84" font-size="12.5" font-weight="400" fill="#333">五系统活体知识代谢 · AI 原生复刻指南 · 8 卷 41 章 + A1-A9 + 一键部署包</text>
+<rect x="600" y="150" width="640" height="46" rx="10" fill="#ffffff" stroke="#8a6cf0" stroke-width="2"/>
+<text x="612" y="174" font-size="15" font-weight="700" fill="#5a3fc0">📖 打开总纲 · 从上往下读：一条原理主脊 + 底部八卷教学载体</text>
+<rect x="630" y="240" width="580" height="120" rx="10" fill="#ffffff" stroke="#8a6cf0" stroke-width="2"/>
+<text x="642" y="264" font-size="15" font-weight="700" fill="#5a3fc0">🧬 招牌命题：活体知识代谢 · 代谢 &gt; 囤积</text>
+<text x="642" y="284" font-size="12.5" font-weight="400" fill="#333">第二大脑不是图书馆(静态囤积)，是活体器官系统(动态代谢)。</text>
+<text x="642" y="302" font-size="12.5" font-weight="400" fill="#333">价值 = 代谢循环跑得多顺，不是存了多少。</text>
+<rect x="60" y="465" width="300" height="130" rx="10" fill="#ffffff" stroke="#3fae6e" stroke-width="2"/>
+<text x="72" y="489" font-size="15" font-weight="700" fill="#1f8a4d">① 摄入</text>
+<text x="72" y="509" font-size="12.5" font-weight="400" fill="#333">看到值得的即策展入 raw</text>
+<text x="72" y="527" font-size="12.5" font-weight="400" fill="#333">「帮我录入」触发 · 卷三13</text>
+<rect x="390" y="465" width="300" height="130" rx="10" fill="#ffffff" stroke="#3fae6e" stroke-width="2"/>
+<text x="402" y="489" font-size="15" font-weight="700" fill="#1f8a4d">② 消化</text>
+<text x="402" y="509" font-size="12.5" font-weight="400" fill="#333">源材料→概念/综述页</text>
+<text x="402" y="527" font-size="12.5" font-weight="400" fill="#333">一份源长 5-15 页 · 卷二7</text>
+<rect x="720" y="465" width="300" height="130" rx="10" fill="#ffffff" stroke="#3fae6e" stroke-width="2"/>
+<text x="732" y="489" font-size="15" font-weight="700" fill="#1f8a4d">③ 检索</text>
+<text x="732" y="509" font-size="12.5" font-weight="400" fill="#333">全 vault 混合检索</text>
+<text x="732" y="527" font-size="12.5" font-weight="400" fill="#333">补 raw 细节/跨类 · 卷三14</text>
+<rect x="1050" y="465" width="300" height="130" rx="10" fill="#ffffff" stroke="#3fae6e" stroke-width="2"/>
+<text x="1062" y="489" font-size="15" font-weight="700" fill="#1f8a4d">④ 产出</text>
+<text x="1062" y="509" font-size="12.5" font-weight="400" fill="#333">知识→公众号/视频/星球</text>
+<text x="1062" y="527" font-size="12.5" font-weight="400" fill="#333">content-factory · 卷四</text>
+<text x="1062" y="545" font-size="12.5" font-weight="400" fill="#333">24</text>
+<rect x="1380" y="465" width="300" height="130" rx="10" fill="#ffffff" stroke="#3fae6e" stroke-width="2"/>
+<text x="1392" y="489" font-size="15" font-weight="700" fill="#1f8a4d">⑤ 反哺</text>
+<text x="1392" y="509" font-size="12.5" font-weight="400" fill="#333">效果回标知识页</text>
+<text x="1392" y="527" font-size="12.5" font-weight="400" fill="#333">越转越懂你(复利) · 卷三18</text>
+<rect x="60" y="775" width="300" height="130" rx="10" fill="#ffffff" stroke="#e0565b" stroke-width="2"/>
+<text x="72" y="799" font-size="15" font-weight="700" fill="#b3373c">🧠 知识库｜大脑本体</text>
+<text x="72" y="819" font-size="12.5" font-weight="400" fill="#333">唯一真相源 · 三层 raw→wiki→</text>
+<text x="72" y="837" font-size="12.5" font-weight="400" fill="#333">洞察</text>
+<text x="72" y="855" font-size="12.5" font-weight="400" fill="#333">承载 ①摄入 ②消化</text>
+<rect x="390" y="775" width="300" height="130" rx="10" fill="#ffffff" stroke="#c9b63a" stroke-width="2"/>
+<text x="402" y="799" font-size="15" font-weight="700" fill="#8a7c12">🔍 QMD｜检索器官</text>
+<text x="402" y="819" font-size="12.5" font-weight="400" fill="#333">BM25+向量+重排 · 中文 Qwen</text>
+<text x="402" y="837" font-size="12.5" font-weight="400" fill="#333">3</text>
+<text x="402" y="855" font-size="12.5" font-weight="400" fill="#333">实现 ③检索环</text>
+<rect x="720" y="775" width="300" height="130" rx="10" fill="#ffffff" stroke="#c9b63a" stroke-width="2"/>
+<text x="732" y="799" font-size="15" font-weight="700" fill="#8a7c12">🦴 GitHub｜脊柱</text>
+<text x="732" y="819" font-size="12.5" font-weight="400" fill="#333">备份/版本/跨机/技能</text>
+<text x="732" y="837" font-size="12.5" font-weight="400" fill="#333">push-only · 排除 PII</text>
+<rect x="1050" y="775" width="300" height="130" rx="10" fill="#ffffff" stroke="#c9b63a" stroke-width="2"/>
+<text x="1062" y="799" font-size="15" font-weight="700" fill="#8a7c12">🔬 NotebookLM｜深研器官</text>
+<text x="1062" y="819" font-size="12.5" font-weight="400" fill="#333">多源深综+音频 · 按需</text>
+<text x="1062" y="837" font-size="12.5" font-weight="400" fill="#333">产物回流真相源</text>
+<rect x="1380" y="775" width="300" height="130" rx="10" fill="#ffffff" stroke="#c9b63a" stroke-width="2"/>
+<text x="1392" y="799" font-size="15" font-weight="700" fill="#8a7c12">🪟 飞书｜运营窗口</text>
+<text x="1392" y="819" font-size="12.5" font-weight="400" fill="#333">看板/协作/PII业务</text>
+<text x="1392" y="837" font-size="12.5" font-weight="400" fill="#333">脱敏 bridge · 不当真相源</text>
+<rect x="60" y="1085" width="560" height="130" rx="10" fill="#ffffff" stroke="#3fb6c9" stroke-width="2"/>
+<text x="72" y="1109" font-size="15" font-weight="700" fill="#1f8090">💪 六块肌肉(卷三)</text>
+<text x="72" y="1129" font-size="12.5" font-weight="400" fill="#333">站位·摄入·检索·验真·复用·复利</text>
+<text x="72" y="1147" font-size="12.5" font-weight="400" fill="#333">+ 自免疫(识别失真)</text>
+<rect x="640" y="1085" width="560" height="130" rx="10" fill="#ffffff" stroke="#3fb6c9" stroke-width="2"/>
+<text x="652" y="1109" font-size="15" font-weight="700" fill="#1f8090">⏱ 部署顺序+代谢节奏(卷五)</text>
+<text x="652" y="1129" font-size="12.5" font-weight="400" fill="#333">①真相源→②检索→③脊柱→④器官→⑤自动化</text>
+<text x="652" y="1147" font-size="12.5" font-weight="400" fill="#333">随手 update / 周 lint / 月复盘</text>
+<rect x="1220" y="1085" width="560" height="130" rx="10" fill="#ffffff" stroke="#3fb6c9" stroke-width="2"/>
+<text x="1232" y="1109" font-size="15" font-weight="700" fill="#1f8090">⚖️ 三方红线(卷七)</text>
+<text x="1232" y="1129" font-size="12.5" font-weight="400" fill="#333">真相(不污染) × AI(5类判断不替) × 数据主体(PII)</text>
+<text x="1232" y="1147" font-size="12.5" font-weight="400" fill="#333">失真自白 + 退出条款</text>
+<rect x="60" y="1395" width="290" height="130" rx="10" fill="#ffffff" stroke="#e0913f" stroke-width="2"/>
+<text x="72" y="1419" font-size="15" font-weight="700" fill="#a8651f">B1 立脑｜0-1周</text>
+<text x="72" y="1439" font-size="12.5" font-weight="400" fill="#333">真相源能摄入消化能问答</text>
+<text x="72" y="1457" font-size="12.5" font-weight="400" fill="#333">卡:schema 没建对</text>
+<rect x="380" y="1395" width="290" height="130" rx="10" fill="#ffffff" stroke="#e0913f" stroke-width="2"/>
+<text x="392" y="1419" font-size="15" font-weight="700" fill="#a8651f">B2 通感｜1-2周</text>
+<text x="392" y="1439" font-size="12.5" font-weight="400" fill="#333">QMD检索+GitHub备份</text>
+<text x="392" y="1457" font-size="12.5" font-weight="400" fill="#333">卡:装错目标/HF/config</text>
+<rect x="700" y="1395" width="290" height="130" rx="10" fill="#ffffff" stroke="#e0913f" stroke-width="2"/>
+<text x="712" y="1419" font-size="15" font-weight="700" fill="#a8651f">B3 长器官｜1-2月·按需</text>
+<text x="712" y="1439" font-size="12.5" font-weight="400" fill="#333">NotebookLM+飞书</text>
+<text x="712" y="1457" font-size="12.5" font-weight="400" fill="#333">卡:多账号/PII边界</text>
+<rect x="1020" y="1395" width="290" height="130" rx="10" fill="#ffffff" stroke="#e0913f" stroke-width="2"/>
+<text x="1032" y="1419" font-size="15" font-weight="700" fill="#a8651f">B4 活体｜持续·无终点</text>
+<text x="1032" y="1439" font-size="12.5" font-weight="400" fill="#333">cron/hook 自代谢+反哺</text>
+<text x="1032" y="1457" font-size="12.5" font-weight="400" fill="#333">卡:覆盖/launchd TCC</text>
+<rect x="1350" y="1395" width="330" height="130" rx="10" fill="#ffffff" stroke="#8a6cf0" stroke-width="2"/>
+<text x="1362" y="1419" font-size="15" font-weight="700" fill="#5a3fc0">🚀 一键部署包</text>
+<text x="1362" y="1439" font-size="12.5" font-weight="400" fill="#333">bash 一键部署.sh ~/vault b</text>
+<text x="1362" y="1457" font-size="12.5" font-weight="400" fill="#333">rain</text>
+<text x="1362" y="1475" font-size="12.5" font-weight="400" fill="#333">坑全预修·打通B1+B2 · 打开</text>
+<rect x="60" y="1710" width="200" height="150" rx="10" fill="#ffffff" stroke="#e0565b" stroke-width="2"/>
+<text x="72" y="1734" font-size="15" font-weight="700" fill="#b3373c">卷一 为什么</text>
+<text x="72" y="1754" font-size="12.5" font-weight="400" fill="#333">第二大脑会宕机</text>
+<text x="72" y="1772" font-size="12.5" font-weight="400" fill="#333">代谢&gt;囤积</text>
+<text x="72" y="1790" font-size="12.5" font-weight="400" fill="#333">🔗</text>
+<rect x="282" y="1710" width="200" height="150" rx="10" fill="#ffffff" stroke="#e0913f" stroke-width="2"/>
+<text x="294" y="1734" font-size="15" font-weight="700" fill="#a8651f">卷二 是什么</text>
+<text x="294" y="1754" font-size="12.5" font-weight="400" fill="#333">五器官六铁律</text>
+<text x="294" y="1772" font-size="12.5" font-weight="400" fill="#333">(宪法)</text>
+<text x="294" y="1790" font-size="12.5" font-weight="400" fill="#333">🔗</text>
+<rect x="504" y="1710" width="200" height="150" rx="10" fill="#ffffff" stroke="#c9b63a" stroke-width="2"/>
+<text x="516" y="1734" font-size="15" font-weight="700" fill="#8a7c12">卷三 怎么练</text>
+<text x="516" y="1754" font-size="12.5" font-weight="400" fill="#333">六块运营肌肉</text>
+<text x="516" y="1772" font-size="12.5" font-weight="400" fill="#333">(能力)</text>
+<text x="516" y="1790" font-size="12.5" font-weight="400" fill="#333">🔗</text>
+<rect x="726" y="1710" width="200" height="150" rx="10" fill="#ffffff" stroke="#c9b63a" stroke-width="2"/>
+<text x="738" y="1734" font-size="15" font-weight="700" fill="#8a7c12">卷四 用什么</text>
+<text x="738" y="1754" font-size="12.5" font-weight="400" fill="#333">五系统工具栈</text>
+<text x="738" y="1772" font-size="12.5" font-weight="400" fill="#333">(⚠️防拜物)</text>
+<text x="738" y="1790" font-size="12.5" font-weight="400" fill="#333">🔗</text>
+<rect x="948" y="1710" width="200" height="150" rx="10" fill="#ffffff" stroke="#3fae6e" stroke-width="2"/>
+<text x="960" y="1734" font-size="15" font-weight="700" fill="#1f8a4d">卷五 何时做</text>
+<text x="960" y="1754" font-size="12.5" font-weight="400" fill="#333">部署顺序+节奏</text>
+<text x="960" y="1772" font-size="12.5" font-weight="400" fill="#333">🔗</text>
+<rect x="1170" y="1710" width="200" height="150" rx="10" fill="#ffffff" stroke="#3fae6e" stroke-width="2"/>
+<text x="1182" y="1734" font-size="15" font-weight="700" fill="#1f8a4d">卷六 怎么长</text>
+<text x="1182" y="1754" font-size="12.5" font-weight="400" fill="#333">B1→B2→B3→B4</text>
+<text x="1182" y="1772" font-size="12.5" font-weight="400" fill="#333">🔗</text>
+<rect x="1392" y="1710" width="200" height="150" rx="10" fill="#ffffff" stroke="#3fb6c9" stroke-width="2"/>
+<text x="1404" y="1734" font-size="15" font-weight="700" fill="#1f8090">卷七 不可为</text>
+<text x="1404" y="1754" font-size="12.5" font-weight="400" fill="#333">三方红线(伦理)</text>
+<text x="1404" y="1772" font-size="12.5" font-weight="400" fill="#333">🔗</text>
+<rect x="1614" y="1710" width="246" height="150" rx="10" fill="#ffffff" stroke="#8a6cf0" stroke-width="2"/>
+<text x="1626" y="1734" font-size="15" font-weight="700" fill="#5a3fc0">卷八 速查</text>
+<text x="1626" y="1754" font-size="12.5" font-weight="400" fill="#333">A1-A9 桌面卡·含部署包</text>
+<text x="1626" y="1772" font-size="12.5" font-weight="400" fill="#333">🔗</text>
+</svg>
