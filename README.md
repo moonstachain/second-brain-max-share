@@ -16,6 +16,14 @@
 
 ---
 
+## 📐 战略蓝图（McKinsey 式高密度版）
+
+> 📄 **[strategy-hybrid-expert-brain.html](strategy-hybrid-expert-brain.html)** — 单页自包含 HTML，麦肯锡 Pyramid + SCQA + MECE + 因果级联 + 12 维信息密度 rubric。
+> 给「一把手」5 分钟看懂全战略：Governing Thought · 5 互斥议题 · 6 节点因果链 · 4 模式检索决策 · 读者行动表 · 失真自报。
+> *(Clone 到本地用浏览器打开看效果最好)*
+
+---
+
 ## 🎴 十大实操锦囊（差异化价值，一眼看它能干嘛）
 
 > 完整版见 [`guide/附录-十大实操锦囊.md`](guide/附录-十大实操锦囊.md)。每招 = 何时用 + 一句口令 + **只有本地大脑能做的那一刀**。

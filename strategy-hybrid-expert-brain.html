@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>混合专家大脑 · 战略蓝图 v1.0</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:#1a1a1a;background:#f7f6f3;line-height:1.5;padding:24px;font-size:14px}
+.wrap{max-width:1400px;margin:0 auto}
+h1{font-size:26px;font-weight:700;margin-bottom:4px;color:#3a2a6e}
+h2{font-size:18px;font-weight:700;margin:24px 0 12px;color:#1a1a1a;border-left:4px solid #8a6cf0;padding-left:10px}
+h3{font-size:14px;font-weight:700;margin:8px 0 4px}
+.sub{color:#666;font-size:12px;margin-bottom:16px}
+.meta{display:flex;gap:14px;flex-wrap:wrap;font-size:11px;color:#888;border-top:1px dashed #d4d0c5;border-bottom:1px dashed #d4d0c5;padding:8px 0;margin:8px 0 20px}
+.meta b{color:#555}
+
+/* Hero · Governing Thought */
+.hero{background:linear-gradient(135deg,#f1edff 0%,#fdf3e8 100%);border:1px solid #d4c9ed;border-radius:12px;padding:20px 24px;margin-bottom:18px}
+.hero .gt{font-size:18px;font-weight:700;color:#3a2a6e;line-height:1.45;margin-bottom:10px}
+.hero .gt .punch{background:#8a6cf0;color:#fff;padding:2px 8px;border-radius:4px;font-size:16px}
+.scqa{display:grid;grid-template-columns:60px 1fr;gap:6px 12px;font-size:13px;margin-top:12px;padding-top:12px;border-top:1px solid rgba(138,108,240,0.2)}
+.scqa b{color:#5a3fc0;font-weight:700;text-align:right}
+.scqa span{color:#333}
+
+/* MECE 议题树 */
+.mece{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:18px}
+.issue{background:#fff;border:1px solid #e2e0d8;border-radius:8px;padding:14px;border-top:4px solid var(--c)}
+.issue h3{color:var(--c);font-size:13px;margin-bottom:6px}
+.issue .at{font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.4;margin-bottom:8px;min-height:54px}
+.issue ul{list-style:none;font-size:12px;color:#444}
+.issue li{padding:3px 0;border-bottom:1px dotted #ecebe5}
+.issue li:last-child{border:none}
+.issue li b{color:var(--c);font-weight:600}
+.issue .sw{margin-top:8px;padding:6px 8px;background:#f8f7f3;border-left:3px solid var(--c);font-size:11px;color:#555;font-style:italic}
+.issue .ac{margin-top:6px;font-size:12px;font-weight:700;color:#1a1a1a}
+.issue .st{display:inline-block;font-size:10px;padding:1px 6px;border-radius:3px;margin-top:6px;background:var(--c);color:#fff;opacity:0.85}
+.i1{--c:#b3373c} .i2{--c:#a8651f} .i3{--c:#8a7c12} .i4{--c:#1f8a4d} .i5{--c:#5a3fc0}
+
+/* 因果级联 */
+.cascade{background:#fff;border:1px solid #e2e0d8;border-radius:8px;padding:18px;margin-bottom:18px}
+.cas-svg{display:block;margin:8px auto;max-width:100%}
+.cas-legend{display:flex;gap:14px;font-size:11px;color:#666;justify-content:center;margin-top:10px;flex-wrap:wrap}
+.cas-legend span{display:inline-flex;align-items:center;gap:4px}
+.cas-legend i{display:inline-block;width:10px;height:10px;border-radius:2px}
+
+/* 4 模式对照 */
+.four{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:18px}
+.mode{background:#fff;border:1px solid #e2e0d8;border-radius:8px;padding:12px;font-size:12px}
+.mode .name{font-weight:700;font-size:13px;margin-bottom:6px}
+.mode .ph{color:#666;font-style:italic;font-size:11px;margin-bottom:8px}
+.mode .pro{color:#1f8a4d;font-size:11px;padding:2px 0}
+.mode .con{color:#b3373c;font-size:11px;padding:2px 0}
+.mode .when{margin-top:6px;padding-top:6px;border-top:1px dotted #ecebe5;font-size:11px;font-weight:600;color:#3a2a6e}
+.m1{border-top:3px solid #b3373c} .m2{border-top:3px solid #1f8a6e} .m3{border-top:3px solid #5a3fc0} .m4{border-top:3px solid #a8651f}
+
+/* 决策表 */
+.decision{background:#fff;border:1px solid #e2e0d8;border-radius:8px;padding:14px;margin-bottom:18px}
+.decision table{width:100%;border-collapse:collapse;font-size:12px}
+.decision th{background:#f1edff;text-align:left;padding:8px 10px;font-weight:700;color:#3a2a6e;border-bottom:2px solid #8a6cf0}
+.decision td{padding:8px 10px;border-bottom:1px solid #ecebe5;vertical-align:top}
+.decision td:first-child{font-weight:700;color:#1a1a1a;white-space:nowrap}
+.tag{display:inline-block;padding:1px 6px;border-radius:3px;font-size:10px;color:#fff;margin-right:4px}
+.tg-b1{background:#b3373c} .tg-b2{background:#a8651f} .tg-b3{background:#1f8a4d} .tg-b4{background:#5a3fc0}
+
+/* 失真自报 */
+.honest{background:#fdf3e8;border:1px solid #e0913f;border-radius:8px;padding:14px;margin-bottom:18px;font-size:12px}
+.honest h3{color:#a8651f;margin-bottom:8px}
+.honest ul{list-style:none;padding-left:0}
+.honest li{padding:3px 0;color:#5a4515}
+.honest li::before{content:"⚠ ";color:#e0913f}
+
+/* footer */
+footer{font-size:11px;color:#888;text-align:center;border-top:1px dashed #d4d0c5;padding-top:12px;margin-top:20px}
+footer a{color:#5a3fc0;text-decoration:none}
+@media (max-width:1100px){.mece{grid-template-columns:repeat(2,1fr)} .four{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>🧠 混合专家大脑 · 战略蓝图 v1.0</h1>
+<div class="sub">A McKinsey-style strategic insight blueprint for building a hybrid expert second brain · Pyramid Principle × MECE × Cascading Causal × 12-dim density</div>
+
+<div class="meta">
+  <span><b>方法论</b>: Minto Pyramid · SCQA · MECE · Action Title · 12 维信息密度 · 因果级联</span>
+  <span><b>as-of</b>: 2026-05</span>
+  <span><b>frozen</b>: 五器官分工铁律 · 六块肌肉 · 三方红线</span>
+  <span><b>dynamic</b>: QMD 模型 / 库规模 / 个人节奏</span>
+  <span><b>N 验证</b>: N=1 (单一实操部署)</span>
+</div>
+
+<!-- ============ HERO · Governing Thought + SCQA ============ -->
+<div class="hero">
+  <div class="gt">混合专家大脑的杠杆点不在装什么软件，在<span class="punch">"一个真相源 + 四器官不重叠 + 三式混合检索的查问反射 + 代谢循环"</span>这套刻进 SOP 的活体器官系统——工具是仆人，结构是主人。</div>
+  <div class="scqa">
+    <b>S</b><span>知识工作者笔记越攒越多，AI 越搜越糊，token 越烧越多——"第二大脑"在规模化时反而宕机。</span>
+    <b>C</b><span>纯 wiki+index 在规模化后精度数学性下降；纯 RAG 没编译骨架；纯云 AI 不懂你的私域。三者各有死穴、缺一不可。</span>
+    <b>Q</b><span>怎么构建一套<b>既能精确又能语义、既本地又能扩展、既懂你又能跨项目复用</b>的"混合专家大脑"？</span>
+    <b>A</b><span>五系统活体代谢架构：<b>LLM-Wiki 真相源 × QMD 混合检索 × GitHub 脊柱 × NotebookLM 深研 × 协作运营窗口</b>，靠"代谢 > 囤积"招牌命题、五器官铁律和三方伦理红线驱动复利飞轮。</span>
+  </div>
+</div>
+
+<!-- ============ MECE 5 议题树 ============ -->
+<h2>核心议题树（MECE）· 5 个互斥穷尽的子问题</h2>
+<div class="mece">
+
+<div class="issue i1">
+  <h3>① 真相源 · Source of Truth</h3>
+  <div class="at">本地优先 + 不可变 raw + AI 友好 markdown，才是知识能复利的地基。</div>
+  <ul>
+    <li><b>三层架构</b>：raw 不可变 / wiki 可演化 / insights 人独占</li>
+    <li><b>Schema 是第四层</b>：CLAUDE.md 让任何 AI 1500 字内定位</li>
+    <li><b>单一真相源铁律</b>：多源 = 没源</li>
+  </ul>
+  <div class="sw">So-What：换编辑器/App 都能延续，因为底层是纯文本 + schema 不是 SaaS 锁定。</div>
+  <div class="ac">Action：先建三层 + Claude.md，喂前 10 篇验证自动长出概念页。</div>
+  <span class="st">🟢 已 N=1 验证</span>
+</div>
+
+<div class="issue i2">
+  <h3>② 检索器官 · Retrieval Organ</h3>
+  <div class="at">BM25 抓字、向量抓意、混合 + 重排默认、Structured Query 是杀手锏——4 模式信息量差 10×。</div>
+  <ul>
+    <li><b>编译 vs 检索互补铁律</b>：wiki 管骨架，RAG 管 raw 细节</li>
+    <li><b>中文必切 Qwen3</b>：默认英文模型质量差一截</li>
+    <li><b>实测省 96% token</b>：15k → 500（Andrew Levine vault）</li>
+  </ul>
+  <div class="sw">So-What：把"AI 帮我查"从 token 黑洞变成秒级精准片段。</div>
+  <div class="ac">Action：装 QMD + 切 Qwen3 + 全量索引 + 冒烟验真。</div>
+  <span class="st">🟢 已 N=1 验证</span>
+</div>
+
+<div class="issue i3">
+  <h3>③ 治理纪律 · Discipline</h3>
+  <div class="at">六块肌肉 + 三方红线——工具替不了的"人的本事"决定大脑成败。</div>
+  <ul>
+    <li><b>六肌肉</b>：站位/摄入/检索/验真/复用/复利 + 自免疫</li>
+    <li><b>三红线</b>：真相不污染 × AI 5 类判断不替 × 数据主体 PII</li>
+    <li><b>头号红线</b>：AI 自报告失实——负证据换工具复验</li>
+  </ul>
+  <div class="sw">So-What：能力不长，工具堆再多也只是数字仓鼠。</div>
+  <div class="ac">Action：每个工具问"它服务我哪块肌肉"；答不上就别装。</div>
+  <span class="st">🟡 持续训练</span>
+</div>
+
+<div class="issue i4">
+  <h3>④ 成长路径 · Growth Path</h3>
+  <div class="at">B2 通感就够 95% 个人用户——B3/B4 是按需，不是必经。</div>
+  <ul>
+    <li><b>B1 立脑</b>(0-1周)：真相源能问答</li>
+    <li><b>B2 通感</b>(1-2周)：QMD 检索 + GitHub 备份 ← 多数人合格止损点</li>
+    <li><b>B3 长器官</b>(1-2月按需)：NotebookLM / 协作窗口</li>
+    <li><b>B4 活体</b>(持续)：cron 自代谢 + 反哺循环</li>
+  </ul>
+  <div class="sw">So-What：跳阶必崩；停在合格的阶段不是失败是止损。</div>
+  <div class="ac">Action：用阶段诊断卡定位"我在 B 几、卡在哪、下一步做什么"。</div>
+  <span class="st">🟢 N=1 走完到 B4</span>
+</div>
+
+<div class="issue i5">
+  <h3>⑤ 复利飞轮 · Compounding</h3>
+  <div class="at">代谢 > 囤积——价值由循环跑得多顺决定，不是存了多少。</div>
+  <ul>
+    <li><b>五环循环</b>：摄入→消化→检索→产出→反哺</li>
+    <li><b>反哺让大脑越用越懂你</b>：喂你的思考 → AI 学你的判断</li>
+    <li><b>复用收敛</b> vs 重写发散：知识必须聚焦</li>
+  </ul>
+  <div class="sw">So-What：图书馆静态，越大越烂；活体动态，越大越聪明。</div>
+  <div class="ac">Action：每月反哺一次——产出效果回标知识页，让飞轮开始转。</div>
+  <span class="st">🟡 飞轮启动期</span>
+</div>
+
+</div><!-- /mece -->
+
+<!-- ============ 因果级联（Cascading Causal） ============ -->
+<h2>因果级联 · 杠杆点在哪一环断，整链就崩</h2>
+<div class="cascade">
+
+<svg class="cas-svg" viewBox="0 0 1340 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#8a6cf0"/></marker>
+    <marker id="ard" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#b3373c"/></marker>
+  </defs>
+  <!-- 正向因果链 -->
+  <g font-family="PingFang SC, sans-serif" font-size="12">
+    <!-- 6 节点 -->
+    <g><rect x="10" y="60" width="180" height="70" rx="8" fill="#fdeef0" stroke="#b3373c" stroke-width="2"/>
+      <text x="100" y="86" text-anchor="middle" font-weight="700" fill="#b3373c">① 真相源建对</text>
+      <text x="100" y="105" text-anchor="middle" fill="#5a3030" font-size="11">三层 + schema + 本地</text>
+      <text x="100" y="120" text-anchor="middle" fill="#5a3030" font-size="11">Layer1 只读</text></g>
+    <g><rect x="220" y="60" width="180" height="70" rx="8" fill="#fdf3e8" stroke="#a8651f" stroke-width="2"/>
+      <text x="310" y="86" text-anchor="middle" font-weight="700" fill="#a8651f">② 知识可代谢</text>
+      <text x="310" y="105" text-anchor="middle" fill="#5a4515" font-size="11">摄入 → 消化</text>
+      <text x="310" y="120" text-anchor="middle" fill="#5a4515" font-size="11">1 源长 5-15 页</text></g>
+    <g><rect x="430" y="60" width="180" height="70" rx="8" fill="#fbf8e6" stroke="#8a7c12" stroke-width="2"/>
+      <text x="520" y="86" text-anchor="middle" font-weight="700" fill="#8a7c12">③ 检索可用</text>
+      <text x="520" y="105" text-anchor="middle" fill="#5a5210" font-size="11">三式 + 中文 Qwen3</text>
+      <text x="520" y="120" text-anchor="middle" fill="#5a5210" font-size="11">补 raw 细节</text></g>
+    <g><rect x="640" y="60" width="180" height="70" rx="8" fill="#ebf8f0" stroke="#1f8a4d" stroke-width="2"/>
+      <text x="730" y="86" text-anchor="middle" font-weight="700" fill="#1f8a4d">④ 产出"你的味道"</text>
+      <text x="730" y="105" text-anchor="middle" fill="#1a4030" font-size="11">基于私域风格观点</text>
+      <text x="730" y="120" text-anchor="middle" fill="#1a4030" font-size="11">不再路人腔</text></g>
+    <g><rect x="850" y="60" width="180" height="70" rx="8" fill="#e9f8fb" stroke="#1f8090" stroke-width="2"/>
+      <text x="940" y="86" text-anchor="middle" font-weight="700" fill="#1f8090">⑤ 反哺回标</text>
+      <text x="940" y="105" text-anchor="middle" fill="#1a4045" font-size="11">效果回标知识页</text>
+      <text x="940" y="120" text-anchor="middle" fill="#1a4045" font-size="11">指导下轮选题</text></g>
+    <g><rect x="1060" y="60" width="180" height="70" rx="8" fill="#f1edff" stroke="#5a3fc0" stroke-width="2"/>
+      <text x="1150" y="86" text-anchor="middle" font-weight="700" fill="#5a3fc0">⑥ 越用越懂你</text>
+      <text x="1150" y="105" text-anchor="middle" fill="#3a2a6e" font-size="11">复利飞轮启动</text>
+      <text x="1150" y="120" text-anchor="middle" fill="#3a2a6e" font-size="11">通用 AI 永远做不到</text></g>
+    <!-- 正向箭头 -->
+    <line x1="190" y1="95" x2="218" y2="95" stroke="#8a6cf0" stroke-width="2" marker-end="url(#ar)"/>
+    <line x1="400" y1="95" x2="428" y2="95" stroke="#8a6cf0" stroke-width="2" marker-end="url(#ar)"/>
+    <line x1="610" y1="95" x2="638" y2="95" stroke="#8a6cf0" stroke-width="2" marker-end="url(#ar)"/>
+    <line x1="820" y1="95" x2="848" y2="95" stroke="#8a6cf0" stroke-width="2" marker-end="url(#ar)"/>
+    <line x1="1030" y1="95" x2="1058" y2="95" stroke="#8a6cf0" stroke-width="2" marker-end="url(#ar)"/>
+    <!-- 反哺回环：⑥ → ① -->
+    <path d="M 1150,130 Q 1150,200 670,200 Q 100,200 100,130" fill="none" stroke="#1f8a4d" stroke-width="2.5" marker-end="url(#ar)" stroke-dasharray="6,4"/>
+    <text x="670" y="195" text-anchor="middle" font-size="11" fill="#1f8a4d" font-weight="700">反哺循环（越转越懂你）</text>
+
+    <!-- 断裂处的失败模式 -->
+    <g font-size="10" fill="#b3373c">
+      <text x="100" y="240" text-anchor="middle" font-weight="700">⚠ 真相源乱</text>
+      <text x="100" y="254" text-anchor="middle">schema 没建对</text>
+      <text x="100" y="268" text-anchor="middle">→ 半年成垃圾场</text>
+
+      <text x="310" y="240" text-anchor="middle" font-weight="700">⚠ 不消化</text>
+      <text x="310" y="254" text-anchor="middle">raw 积压</text>
+      <text x="310" y="268" text-anchor="middle">→ 又一个待办黑洞</text>
+
+      <text x="520" y="240" text-anchor="middle" font-weight="700">⚠ 装错目标</text>
+      <text x="520" y="254" text-anchor="middle">QMD 接到工作区不是真大脑</text>
+      <text x="520" y="268" text-anchor="middle">→ 检索假命中</text>
+
+      <text x="730" y="240" text-anchor="middle" font-weight="700">⚠ AI 路人腔</text>
+      <text x="730" y="254" text-anchor="middle">没喂你的洞察</text>
+      <text x="730" y="268" text-anchor="middle">→ 通用模板</text>
+
+      <text x="940" y="240" text-anchor="middle" font-weight="700">⚠ 不反哺</text>
+      <text x="940" y="254" text-anchor="middle">产完即弃</text>
+      <text x="940" y="268" text-anchor="middle">→ 飞轮不转</text>
+
+      <text x="1150" y="240" text-anchor="middle" font-weight="700">⚠ 工具拜物</text>
+      <text x="1150" y="254" text-anchor="middle">装一堆不代谢</text>
+      <text x="1150" y="268" text-anchor="middle">→ 数字仓鼠</text>
+    </g>
+    <text x="670" y="300" text-anchor="middle" font-size="12" fill="#666" font-weight="700">任一环断 → 整链塌缩 · 杠杆点是结构 + 纪律，不是工具</text>
+  </g>
+</svg>
+
+<div class="cas-legend">
+  <span><i style="background:#8a6cf0"></i>正向因果链</span>
+  <span><i style="background:#1f8a4d"></i>反哺回环（复利）</span>
+  <span><i style="background:#b3373c"></i>断裂失败模式</span>
+</div>
+</div>
+
+<!-- ============ 四模式检索决策（D2 判定密度） ============ -->
+<h2>检索四模式决策（D2 判定密度：替读者做完 80% 判断）</h2>
+<div class="four">
+  <div class="mode m1">
+    <div class="name">① BM25 精确</div>
+    <div class="ph">"写什么字搜什么字"</div>
+    <div class="pro">✓ 确切词/版本号/专名</div>
+    <div class="pro">✓ 1 秒命中</div>
+    <div class="con">✗ 同义词零命中</div>
+    <div class="when">用于：知道关键词 / 私有术语</div>
+  </div>
+  <div class="mode m2">
+    <div class="name">② 向量语义</div>
+    <div class="ph">"想什么意思猜什么意思"</div>
+    <div class="pro">✓ 跨表达召回</div>
+    <div class="pro">✓ raw 细节挖掘</div>
+    <div class="con">✗ 精确词被稀释</div>
+    <div class="when">用于：口语化 / 跨类查询</div>
+  </div>
+  <div class="mode m3">
+    <div class="name">③ 混合+重排（默认）</div>
+    <div class="ph">"两路来挑最准"</div>
+    <div class="pro">✓ 90% 日常最优</div>
+    <div class="pro">✓ Goggle/Anthropic 同款</div>
+    <div class="con">✗ 小库杀鸡牛刀</div>
+    <div class="when">用于：拿不准时 = 默认</div>
+  </div>
+  <div class="mode m4">
+    <div class="name">④ Structured Query</div>
+    <div class="ph">"四段信号极致挖掘"</div>
+    <div class="pro">✓ intent/lex/vec/hyde</div>
+    <div class="pro">✓ <b>hyde 是杀手锏</b></div>
+    <div class="con">✗ 写偏全盘错</div>
+    <div class="when">用于：写文章 / 做决策的那次</div>
+  </div>
+</div>
+
+<!-- ============ 决策行动表（D9 行动建议） ============ -->
+<h2>读者决策表 · 不同起点的下一步</h2>
+<div class="decision">
+<table>
+  <thead><tr><th>你现在的状态</th><th>下一步路径</th><th>预期时长</th><th>验真信号</th></tr></thead>
+  <tbody>
+    <tr><td><span class="tag tg-b1">从 0 开始</span>笔记散在收藏夹/截图</td>
+        <td>装 Obsidian + Claude Code + Claude.md → 建三层 → 喂前 10 篇</td>
+        <td>0-1 周</td>
+        <td>Layer2 自动长出概念页</td></tr>
+    <tr><td><span class="tag tg-b2">已有笔记乱</span>Obsidian 用了但 AI 搜不准</td>
+        <td>接 QMD + 切 Qwen3 + 全量索引 → 中文检索冒烟验真</td>
+        <td>1-2 周</td>
+        <td>跨类查询有合理命中 / token 大降</td></tr>
+    <tr><td><span class="tag tg-b3">有团队/PII 业务</span>要给人/移动端看</td>
+        <td>接深研器官 NotebookLM + 协作运营窗口 + 脱敏 bridge</td>
+        <td>1-2 月（按需）</td>
+        <td>产物回流真相源 / PII 不外泄</td></tr>
+    <tr><td><span class="tag tg-b4">想自运转</span>不想手动养护</td>
+        <td>挂 cron/hook → 摄入即索引 / 夜间消化 / 周更反哺</td>
+        <td>持续（需先 B1-B3 稳）</td>
+        <td>睡觉时大脑在代谢 / 反哺循环跑通</td></tr>
+    <tr><td><span style="color:#888">⚠ 反例</span>主题完全不存或单文件</td>
+        <td><b>别用本套</b>——杀鸡用牛刀。grep 或 ChatGPT 即可</td>
+        <td>0</td>
+        <td>知道边界 = 智慧</td></tr>
+  </tbody>
+</table>
+</div>
+
+<!-- ============ 失真自报（D3 不确定性显式化） ============ -->
+<div class="honest">
+  <h3>失真自报 · 这套蓝图的边界与未验证假设（显式承认）</h3>
+  <ul>
+    <li><b>N=1 验证</b>：完整 B1→B4 走通 N=1（单一用户实操部署），五系统全器官 N=1；个人用户 B2 止损点是经验外推，未做用户研究</li>
+    <li><b>中文场景偏置</b>：Qwen3 + 国内 HF 镜像是中文用户的最优解；英文 vault 应切回默认 embeddinggemma，本蓝图未充分覆盖</li>
+    <li><b>"代谢 > 囤积"招牌命题</b>：哲学层面成立，工程层面的"什么算代谢成功"缺定量指标（feedback_score 是 N=1 探索）</li>
+    <li><b>器官分工铁律</b>：当工具升级时（如 GitHub 增加 Copilot 检索）可能模糊器官边界，铁律需 v2 复审</li>
+    <li><b>三方红线伦理</b>：标 pending-review；适用法域/合规细节需各地具体咨询</li>
+    <li><b>反例边界</b>：5 类反例（精确词稀释/私有术语/hyde 写偏/小库/跨语言）来自实操，非穷举——可能存在未识别的失败模式</li>
+  </ul>
+</div>
+
+<!-- ============ 元信息 ============ -->
+<h2>方法论与参考（D10 元层）</h2>
+<div class="decision">
+<table>
+  <tr><td><b>核心方法论</b></td><td>Minto Pyramid Principle · SCQA · MECE · Action Title（高密度麦肯锡报告）</td></tr>
+  <tr><td><b>密度审计 rubric</b></td><td>12 维信息密度（D1 时间/D2 判定/D3 不确定性/D4 多源/D5 共识分歧/D6 frozen×dynamic/D7 状态机/D8 降维/D9 行动/D10 元层/D11 轨迹/D12 个人意义）</td></tr>
+  <tr><td><b>因果级联设计</b></td><td>cascading-causal-cockpit 多层级联交互式因果图谱</td></tr>
+  <tr><td><b>底层第一性</b></td><td>Karpathy LLM-Wiki 三层模式 · Vannevar Bush 1945 Memex · Tobi Lütke QMD 混合检索</td></tr>
+  <tr><td><b>中文 RAG 底座</b></td><td>阿里 Qwen3-Embedding-0.6B（让本地中文 RAG 达到商用质量）</td></tr>
+  <tr><td><b>配套资产</b></td><td>《本地专家大脑绿皮书》8 卷 41 章 · 一键部署包 · 概念地图 · 十大锦囊 · 经典案例 · 反例边界</td></tr>
+</table>
+</div>
+
+<footer>
+本蓝图为 v1.0 草稿 · 版权 MIT · 配套仓库 <a href="https://github.com/moonstachain/second-brain-max-share">moonstachain/second-brain-max-share</a><br>
+方法论 distilled from: McKinsey Pyramid · high-info-density-dashboard-designer · high-density-mckinsey-report-designer · cascading-causal-cockpit
+</footer>
+
+</div></body></html>
